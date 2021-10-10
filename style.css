@@ -1,0 +1,609 @@
+*{ margin: 0px;padding: 0px; }
+body
+{ background-color:whitesmoke;}
+
+/* navbar */
+
+.nav1
+{
+    position:fixed;
+    top:0;
+    overflow: hidden;
+    background-color: #fff;
+    width: 100%;
+    z-index: 1;
+
+    
+}
+.nav
+{
+ width: 100%;
+ border-bottom: 5px solid black;
+ height: 80px;
+ display:grid;
+ grid-template-columns: 4fr 3fr 1fr 1fr;}
+
+
+.nav .logo img
+{
+ width: 250px;
+ height: 60px;
+ margin-top: 10px;
+ margin-left: 30px;}
+
+.nav .icon i
+{
+ font-size: 30px;
+ color: black;
+ padding: 3px 3px;
+ margin-right: 0px;
+ margin-left: 20px;
+margin-top: 20px}
+
+
+.nav ul .active
+ {width: 70px;
+    height: 30px;
+  font-size: 20px;
+   list-style-type: none;
+   color:white;
+    background-color:rgb(202, 5, 5);
+    padding:1px 6px;
+    text-align:center;
+    margin-top: 20px;
+    }
+.nav ul .active:hover
+{ background-color:lightgray; color: black;}
+
+.nav h5 a:hover
+
+{ background-color:lightgray; color: black;}
+
+.nav h5 a
+{position: relative;
+    top:23px;
+    right:40px;
+    text-decoration: none;
+    width: 80px;
+    height: 30px;
+  font-size: 20px;
+  padding:4px 8px;
+    text-align:center;
+    margin-top: 20px;
+    color:black;
+    background-color:#f0eeee;
+}
+
+
+
+
+/* portion 2 */
+.portion2
+{   border: 1px solid black;
+    background-color: gray;
+    background-image:url("./img/2nd portion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+    height:400px;
+    width:100%;}
+
+.portion2 .sub
+{   height:200px;
+    width:580px;
+    display:gride;
+    grid-template-rows: 5fr 3fr 2fr;
+    position:relative;
+    left: 200px;
+    top:130px;}
+
+.portion2 .button
+{  color: white;
+    background-color: orange;
+    padding: 6px 4px;
+    border-radius: 14px;
+    width:60px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;}
+
+.portion2 h1
+{   color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;}
+
+.portion2 p
+{   color:white;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    word-spacing: 3px;}
+
+/* portion3 */
+/* heading */
+.portion3 h1
+{   font-size: 25px;
+    color:black;
+    font-family:'Times New Roman';
+    position: relative;
+    left: 40px;
+    font-weight: bolder;
+     text-shadow: 1px 1px 2px black;}
+
+     /* grid container */
+ .portion3 .container
+
+ {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 270px 400px 260px;
+    width: 80%;
+    height: 1000px;
+    margin-left: 130px;
+    grid-gap: 20px 20px;
+    justify-content: space-around;}
+
+    /* basic setting of grid */
+ .portion3 .div1
+ {background-color :white;grid-column: 1/3;}
+
+ .portion3 .div7
+ {background-color :white;grid-column: 2/4;}
+ 
+/*portion3 *//* div1 */
+
+.container .div1
+{display:flex;
+flex-direction: left;}
+
+.container .div1 img
+{border: 10px solid white;}
+
+.container .sub1
+{  width: 320px;
+    height: 230px;
+    border: 10px solid white;}
+
+.container .div1  .button1
+    {color: white;
+    font-weight: bolder;
+    background-color:purple;
+    padding: 9px 9px;
+    border-radius: 14px;
+    width:80px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;  }
+
+.container .div1 h3 a
+    {   font-size:23px ;
+        font-weight: bolder;
+        color: black;
+        text-decoration: none;
+        font-family:'Times New Roman', Times, serif;}
+
+.container .div1 h3 p
+{font-size:16px ;
+ color: black;
+ text-decoration: none;
+font-family:'Times New Roman', Times, serif; }
+
+
+    /* div2 */
+    .container .div2
+{
+    background-color: rgb(36, 34, 34)
+
+    
+}
+
+.container .div2 .sub2
+{
+    
+    height:230px;
+    width: 280px;
+    position: relative;
+    top:20px;
+    left: 20px;
+}
+
+.container .button2
+{font-weight: bolder;
+    color: white;
+    background-color: orange;
+    padding: 5px 7px;
+    border-radius: 14px;
+    width:60px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .div2 h3 a
+{
+    font-size:23px ;
+        font-weight: bolder;
+        color: white;
+        text-decoration: none;
+        font-family:'Times New Roman', Times, serif;
+}
+.container .div2 p
+{font-size:16px ;
+        
+    color:white;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+
+}
+/* div3 */
+.container .div3
+{
+    background-color: white;   
+}
+.container .div3 img
+{
+    border: 10px soild white;
+
+}
+.container .div3 .sub3
+
+{border: 10px solid white;
+    height: 150px;
+
+}
+.container  .sub3 .button3
+{font-weight: bolder;
+    color: white;
+    text-align: center;
+    background-color: #06b0f3;
+    padding: 8px 18px;
+    border-radius: 14px;
+    width:60px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .div3 h3 a
+{
+    font-size:23px ;
+        font-weight: bolder;
+        color:black;
+        text-decoration: none;
+        font-family:'Times New Roman', Times, serif;
+}
+.container .div3 p
+{font-size:16px ;
+        
+    color:black;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+
+}
+/* div4 */
+.container .div4
+{
+    background-color: white;   
+}
+.container .div4 img
+{
+    border: 10px soild white;
+
+}
+.container .div4 .sub4
+
+{border: 10px solid white;
+    height: 170px;
+
+}
+.container  .sub4 .button4
+{font-weight: bolder;
+    color: white;
+    text-align: center;
+    background-color:orange;
+    padding: 8px 8px;
+    border-radius: 14px;
+    width:60px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .div4 h3 a
+{
+    font-size:23px ;
+        font-weight: bolder;
+        color:black;
+        text-decoration: none;
+        font-family:'Times New Roman', Times, serif;
+}
+.container .div4 p
+{font-size:16px ;
+        
+    color:black;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;}
+
+    /* div5 */
+    .container .div5
+    {
+        background-color: white;   
+    }
+    .container .div5 img
+    {
+        border: 10px soild white;
+    
+    }
+    .container .div5 .sub5
+    
+    {border: 10px solid white;
+        height: 150px;
+    
+    }
+    .container  .sub5 .button5
+    {font-weight: bolder;
+        color: white;
+        text-align: center;
+        background-color: #06b0f3;
+        padding: 8px 18px;
+        border-radius: 14px;
+        width:60px;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .container .div5 h3 a
+    {
+        font-size:23px ;
+            font-weight: bolder;
+            color:black;
+            text-decoration: none;
+            font-family:'Times New Roman', Times, serif;
+    }
+    .container .div5 p
+    {font-size:16px ;
+            
+        color:black;
+        text-decoration: none;
+        font-family:'Times New Roman', Times, serif;
+    
+    }
+
+     /* div6 */
+     .container .div6
+     {
+         background-color: rgb(187, 63, 18);
+     
+         
+     }
+     
+     .container .div6 .sub6
+     {
+         
+         height:230px;
+         width: 280px;
+         position: relative;
+         top:20px;
+         left: 20px;
+     }
+     
+     .container .button6
+     {font-weight: bolder;
+         color: white;
+         background-color: orange;
+         padding: 5px 7px;
+         border-radius: 14px;
+         width:60px;
+         text-align: center;
+         font-size: 12px;
+         font-family: Arial, Helvetica, sans-serif;
+     }
+     
+     .container .div6 h3 a
+     {
+         font-size:23px ;
+             font-weight: bolder;
+             color: white;
+             text-decoration: none;
+             font-family:'Times New Roman', Times, serif;
+     }
+     .container .div6 p
+     {font-size:16px ;
+             
+         color:white;
+         text-decoration: none;
+         font-family:'Times New Roman', Times, serif;
+     
+     }
+     /* div7 */
+     .container .div7
+{
+    display:flex;
+    flex-direction: left;
+}
+
+
+.container .div7
+img
+{border: 10px solid white;
+    
+}
+
+
+
+.container .sub7
+{
+
+    width: 320px;
+    height: 230px;
+    border: 10px solid white;
+    
+
+
+}
+.container .div7 .button7
+    {color: white;
+        font-weight: bolder;
+    background-color:purple;
+    padding: 9px 9px;
+    border-radius: 14px;
+    width:80px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .container .div7 h3 a
+    {
+        font-size:23px ;
+        font-weight: bolder;
+        color: black;
+        text-decoration: none;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .container .div7 h3 p
+
+    {font-size:16px ;
+        
+        color: black;
+        text-decoration: none;
+        font-family:'Times New Roman', Times, serif;
+
+    }
+/* portion 4 footer */
+.footer
+{
+    display: grid;
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color:white;
+}
+/* ftr1 */
+.footer .ftr1 
+{
+    border:1px solid whit
+    width: 300px;
+    height: 250px;
+    position: relative;
+    top:20px;
+    left: 30px;
+}
+.footer .ftr1 img
+{width:260px;}
+.footer .ftr1 p
+{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* ftr2 */
+.footer .ftr2
+{
+    border:1px solid re
+    width: 300px;
+    height: 250px;
+    position: relative;
+    top:20px;
+    left: 50px;
+}
+
+.footer .ftr2 h3
+{font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.footer .ftr2 p
+{font-size:18px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.footer .ftr2 input[type='email'] {
+    width: 80%;
+    padding: 0.4rem;
+
+  }
+  
+  .footer .ftr2 input[type='submit'] {
+    width: 85%;
+    background-color:orange;
+    color:white;
+    padding: 0.4rem;
+    font-weight: bolder;
+    border: orange;
+  }
+
+.footer .ftr3
+{
+    border:1px solid yello
+    width: 150px;
+    height: 250px;
+    position: relative;
+    top:20px;
+    left: 80px;
+}
+.footer .ftr3 h3
+{font-size:30px;
+    font-family: 'Times New Roman', Times, serif;}
+
+    .footer .ftr3 ul li 
+    {font-size:18px;
+        list-style-type: none;
+
+        font-family: 'Times New Roman', Times, serif;}  
+        .footer .ftr3 ul li:hover
+        {
+            color:rgb(202, 5, 5);
+        }
+        
+/* ftr4 */
+
+        .footer .ftr4
+{
+    border:1px solid greenyello
+    width: 300px;
+    height: 250px;
+    position: relative;
+    top:20px;
+    right:30px;
+}
+.footer .ftr4 h3
+{font-size:30px;
+    font-family: 'Times New Roman', Times, serif;}
+
+    
+
+}
+.footer .ftr4 p
+{font-size:18px;
+    font-family: 'Times New Roman', Times, serif;}
+    .footer .ftr4 a{
+        background-color: rgb(240, 182, 76);
+        width:200px;
+        padding: 12px 25px;
+        color:white;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: serif;
+        position: relative;
+        top:30px;
+        left:20px;
+        font-weight: bolder;
+    }
+    .ft2
+{
+    
+    width: 100%;
+    height: 80px;
+
+    background-color:black;
+}
+    
+.ft2 p
+{
+    background-color:rgb(65, 63, 63);
+    color:white;
+    text-align:center;
+    font-size:15px;
+    padding: 12px  20px;
+    width: 80%;
+    position: relative;
+    left: 100px;
+
+}
